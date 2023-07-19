@@ -523,6 +523,13 @@ footer p {
 
 }
 
+.footer-link a, .grey a{
+    padding: 22px;
+}
+
+
+
+
 /* .game-list-content a{
      text-align: left;
      font-size: 0.5rem;
