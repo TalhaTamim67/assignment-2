@@ -413,8 +413,16 @@ footer p {
     padding-bottom: 34px;
 }
 
+.footer-link {
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+}
 
 
+.upper a, .lower a {
+    margin-right: 20px;
+}
 
 
 
