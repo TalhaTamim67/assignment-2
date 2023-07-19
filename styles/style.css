@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:wght@400;700;800&family=Work+Sans:ital,wght@0,400;0,600;0,700;0,800;1,400;1,600&display=swap'); 
+
+
+* {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+
+/* Logo Styles */
+
+.logo-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gamer-title {
+
+    font-weight: 700;
+    padding-left: 20px;
+    font-size: 2.8rem;
+}
+
+
+/* Nav Styles  */
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 38px;
+}
+
+nav>ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    padding: 20px;
+}
+
+nav li a {
+    text-decoration: none;
+    color:#3C354F;
+    
+    
+
+    
+
+    font-weight: 500;
+
+}
+
+/* menu button and icon styles  */
+
+.follow-button {
+    padding: 17px 22px;
+    border: none;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+
+
+.fa-youtube, .fa-tiktok {
+    font-size: 24px;
+    padding-left: 24px;
+}
+
+.fa-youtube {
+    color: red;
+}
+
+/* Banner styles  */
+
+.banner-conent, .banner-img {
+    width: 50%;
+} 
+
+.banner-content {
+    padding-left: 244px;
+    padding-top: 140px ;
+}
+
+
+
+.banner-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+
+.banner-image {
+    padding-right: 150px;
+}
+
+.banner-content {
+    background-image: url(../images/Group\ 14.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-right: 280px;
+}
+
+
+.banner-subtitle {color: #0B0223;
+    text-align: center;
+    
+    font-size: 3rem;
+    font-style: normal;
+    
+   
+    text-transform: uppercase;
+}
+
+.goat {
+    color: #8758F1;
+
+font-size: 5.5rem;
+
+font-weight: 800;
+
+text-transform: uppercase;
+
+}
+
+
+.banner-description {
+    color: #534C64;
+
+font-size: 1.2rem;
+
+font-weight: 500;
+padding-bottom: 17px;
+text-transform: lowercase;
+} 
+
+
+.btn-primary {
+    margin-top: 30px;
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    padding: 21px 40px;
+    font-size: 1.2rem;
+    color: #fff;
+    border: none;
+    margin-right: 40px;
+    cursor: pointer;
+}
+
+.go-btn{
+    border-radius: 48px;
+    background: #4EC5F7;
+    padding: 21px 40px;
+    font-size: 1.2rem;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 100px;
+}
+
+
+
+
+
+
+/* responsive for mobile  */
+
+@media screen and (max-width: 576px) {
+
+    nav, ul, .banner-container {
+        flex-direction: column;
+    }
+
+    .banner-img{
+        width: 100%;
+    } 
+
+    .banner-content {
+        padding: 20px;
+        width: 100%;
+        text-align: center;
+        
+        
+       
+    }
+
+    .banner-image {
+        width: 100%;
+        padding: 0px;
+    }
+
+    
+    
+    
+
+    
+}
