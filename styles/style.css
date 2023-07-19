@@ -530,6 +530,7 @@ footer p {
 
 
 
+
 /* .game-list-content a{
      text-align: left;
      font-size: 0.5rem;
@@ -540,4 +541,26 @@ footer p {
 
 
 
+}
+
+
+/* tab responsive    */
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+   .banner-container,.gamer-container {
+        flex-direction: column-reverse;
+    }
+
+    .gamer-container {
+        padding: 50px;
+    }
+    .gamers-img {
+        max-width: 100%;
+        padding: 0px;
+       }
+
+       .card-container {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
 }
