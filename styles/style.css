@@ -258,8 +258,73 @@ line-height: 45px;
 
 .video-card {
     width: 17%;
-    position: relative;
 }
+
+
+
+.play-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.play-image-box {
+    padding-right: 240px;
+    padding-left: 100px;
+}
+
+.play-img-big {
+    margin-left: 150px;
+}
+
+.mini-image {
+    position: relative;
+    bottom: 300px;
+}
+
+.play-content {
+   padding-left: 300px;
+   
+}
+
+.play-title {
+    font-family: Work Sans;
+font-size: 3rem;
+font-style: normal;
+font-weight: 700;
+line-height: 60px; /* 125% */
+}
+
+.play-purple {
+    color: #F948B2;
+}
+
+.play-description {
+    color: #534C64;
+font-family: Work Sans;
+font-size: 1.1rem;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -268,9 +333,39 @@ line-height: 45px;
 
 @media screen and (max-width: 576px) {
 
-    nav, ul, .banner-container  {
+    nav, ul, .banner-container, .card-container, .play-container  {
         flex-direction: column;
         
+    }
+
+    .video-card {
+        text-align: center;
+        width: 100%;
+    }
+    
+    .play-content {
+        padding: 20px;
+        text-align: center;
+    }
+
+    .play-image-box {
+        padding: 0px;
+        max-width: 100%;
+        
+        
+    }
+    
+    .play-img-big {
+        margin-left: 20px;
+        width: 80%;
+        padding-left: 30px;
+    }
+
+
+    .mini-image {
+        position: relative;
+        bottom: 130px;
+        width: 40%;
     }
 
     nav ul {
@@ -282,7 +377,7 @@ line-height: 45px;
 
     .banner-content {
         padding: 15px;
-        width: 100%;
+        max-width: 100%;
         text-align: center;
         
         
@@ -290,7 +385,7 @@ line-height: 45px;
     }
 
     .banner-image {
-        width: 100%;
+        max-width: 100%;
         padding: 0px;
     }
 
@@ -302,7 +397,7 @@ line-height: 45px;
     }
 
    .gamers-img {
-    width: 100%;
+    max-width: 100%;
     padding: 0px;
    }
     
