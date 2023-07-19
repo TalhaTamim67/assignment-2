@@ -550,6 +550,10 @@ footer p {
     margin-right: 10px;
 }
 
+.social-icon a {
+    margin-right: 20px;
+}
+
 /* .footer-link a, .grey a{
     padding: 22px;
 } */
