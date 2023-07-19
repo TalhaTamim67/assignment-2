@@ -374,7 +374,7 @@ footer {
 .footer-link a {
     text-decoration: none;
     color:#fff ;
-    padding-right: 60px;
+    /* padding-right: 60px; */
     
 }
 
@@ -385,6 +385,7 @@ footer {
 
 .footer-link  {
     text-align: center;
+    padding: 20px;
 }
 
 .social-icon {
@@ -393,12 +394,17 @@ footer {
 .social-icon i {
     color: #fff;
     font-size: 2rem;
-    padding-top: 50px;
-    padding-right: 30px;
-    padding-bottom: 50px;
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-bottom: 30px;
 }
 .grey a{
     color: rgba(255, 255, 255, 0.60);
+    padding: 20px;
+}
+
+.spacing {
+    padding-bottom: 4px;
 }
 
 footer p {
@@ -523,9 +529,22 @@ footer p {
 
 }
 
-.footer-link a, .grey a{
-    padding: 22px;
+.footer-link {
+    display: grid;
+    
 }
+
+.upper {
+    margin-bottom: 20px;
+}
+
+.upper a, .lower a {
+    margin-right: 10px;
+}
+
+/* .footer-link a, .grey a{
+    padding: 22px;
+} */
 
 
 
