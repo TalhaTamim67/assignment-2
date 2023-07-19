@@ -310,15 +310,102 @@ line-height: 30px; /* 166.667% */
 
 
 
+/* games list styles   */
+
+
+.games-list-container1 {
+    display: flex;
+    justify-content: center;
+    
+    padding: 50px;
+    column-gap: 30px;
+    
+    
+}
+
+.games-list-container2 {
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+}
+
+.games-list-content a {
+    text-decoration: none;
+    color: #0B0223;
+    font-size: 1.2rem;
+    font-weight: 600;
+
+}
+
+.games-list-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    
+   
+
+}
+
+
+.games-list-content:hover {
+    border-radius: 50px;
+    border: 1px solid #FF42A5;
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
 
 
 
+.games {
+    margin-bottom: 100px;
+}
 
 
+/* footer styles  */
+
+footer {
+    background: #0B0223;
+    text-align: center;
+}
 
 
+.footer-link a {
+    text-decoration: none;
+    color:#fff ;
+    padding-right: 60px;
+    
+}
 
+.footer-logo {
+    padding-top: 56px;
+    padding-bottom: 56px;
+}
 
+.footer-link  {
+    text-align: center;
+}
+
+.social-icon {
+    text-align: center;
+}
+.social-icon i {
+    color: #fff;
+    font-size: 2rem;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+}
+.grey a{
+    color: rgba(255, 255, 255, 0.60);
+}
+
+footer p {
+    padding-top: 34px;
+    color:rgba(255, 255, 255, 0.60) ;
+    padding-bottom: 34px;
+}
 
 
 
@@ -333,40 +420,14 @@ line-height: 30px; /* 166.667% */
 
 @media screen and (max-width: 576px) {
 
+    /* nav mobile responsive  */
+
     nav, ul, .banner-container, .card-container, .play-container  {
         flex-direction: column;
         
     }
 
-    .video-card {
-        text-align: center;
-        width: 100%;
-    }
     
-    .play-content {
-        padding: 20px;
-        text-align: center;
-    }
-
-    .play-image-box {
-        padding: 0px;
-        max-width: 100%;
-        
-        
-    }
-    
-    .play-img-big {
-        margin-left: 20px;
-        width: 80%;
-        padding-left: 30px;
-    }
-
-
-    .mini-image {
-        position: relative;
-        bottom: 130px;
-        width: 40%;
-    }
 
     nav ul {
         padding-left: 0px;
@@ -409,12 +470,67 @@ line-height: 30px; /* 166.667% */
 
    .gamer-title {
     text-align: center;
+    line-height: 1;
    }
 
    .btn-mobile {
     margin-right: 0px;
    }
 
+/* funny videos mobile responsive  */
 
+   .video-card {
+    text-align: center;
+    width: 100%;
+}
+
+/* play games online mobile responsive  */
+
+.play-content {
+    padding: 20px;
+    text-align: center;
+}
+
+.play-image-box {
+    padding: 0px;
+    max-width: 100%;
     
+    
+}
+
+.play-img-big {
+    margin-left: 20px;
+    width: 80%;
+    padding-left: 30px;
+}
+
+
+.mini-image {
+    position: relative;
+    bottom: 130px;
+    width: 40%;
+}
+
+
+/* games list responsive styles  */
+
+.games-list-container1, .games-list-container2 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 0px;
+    row-gap: 10px;
+    
+
+}
+
+/* .game-list-content a{
+     text-align: left;
+     font-size: 0.5rem;
+     padding: 2px;
+}  */
+
+
+
+
+
 }
