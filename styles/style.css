@@ -547,7 +547,7 @@ footer p {
 /* tab responsive    */
 
 @media screen and (min-width: 576px) and (max-width: 992px) {
-   .banner-container,.gamer-container {
+   .banner-container,.gamer-container,.play-container {
         flex-direction: column-reverse;
     }
 
@@ -562,5 +562,41 @@ footer p {
        .card-container {
         display: grid;
         grid-template-columns: repeat(2,1fr);
+    }
+
+    .video-card {
+        text-align: center;
+        width: 100%;
+    }
+
+
+    .play-img-big {
+        margin-left: 20px;
+        width: 100%;
+        padding-left: 30px;
+    }
+    
+    
+    .mini-image {
+        position: relative;
+        bottom: 130px;
+        width: 50%;
+    }
+
+
+
+    .play-content {
+        padding: 20px;
+        text-align: center;
+    }
+
+
+    .games-list-container1, .games-list-container2 {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        padding: 0px;
+        row-gap: 10px;
+        
+    
     }
 }
