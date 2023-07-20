@@ -582,6 +582,34 @@ footer p {
         flex-direction: column-reverse;
     }
 
+
+    nav li {
+        list-style: none;
+        padding: 7px;
+    }
+
+    .banner-content {
+        
+        max-width: 100%;
+       
+        
+        
+       
+    }
+
+    .banner-content {
+        background-image: url(../images/Group\ 14.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-right: 170px;
+    }
+
+
+    .banner-image {
+        max-width: 100%;
+        padding: 0px;
+    }
+
     .gamer-container {
         padding: 50px;
     }
@@ -617,7 +645,7 @@ footer p {
 
 
     .play-content {
-        padding: 20px;
+        padding: 60px;
         text-align: center;
     }
 
@@ -630,4 +658,14 @@ footer p {
         
     
     }
+
+    .play-content {
+        margin-bottom: 30px;
+    }
+
+
+    footer {
+        max-width: 100%;
+    }
+
 }
