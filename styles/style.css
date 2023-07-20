@@ -532,20 +532,13 @@ footer p {
 
 .games-list-container1, .games-list-container2 {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    padding: 5px;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 0px;
     row-gap: 10px;
     
 
 }
 
-/* .games-list-content img {
-    width: 5%;
-}
-
-.games-list-container1 a, .games-list-container2 a {
-    font-size: 0.6rem;
-} */ */
 
 .footer-link {
     display: grid;
